@@ -1,0 +1,199 @@
+body
+{
+    background-color: #08d2dd;
+    font-size: 1rem;
+    font-family: "Liberation Sans",sans-serif;
+    margin: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-image: url("images/Background_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+
+a
+{
+    color: #7717ff;
+}
+
+a:visited
+{
+    color: #5500ff;
+}
+
+/* Header  */
+header {
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+}
+header div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div img
+{
+    height: 6em;
+}
+
+h1
+{
+    font-size: 4em;
+    margin-left: 0.5em;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    color: #a494ff;
+    text-shadow: 2px 2px 5px #f319ff;
+}
+
+h1 small {
+    font-size: 0.6em;
+    display: block;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+header nav a, header nav a:visited
+{
+    font-family: "Lobster Two", sans-serif;
+    color: #ae52ff;
+    text-decoration: none;
+    margin: 0.6em;
+    font-size: 1.3em;
+
+}
+
+/* Main Content and Sidebar  */
+main
+{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+main aside
+{
+    margin-right: 5em;
+    /*background-color: #FFF172;*/
+}
+
+main aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main aside ul li
+{
+    margin-bottom: 0.2em;
+}
+
+main aside ul li a
+{
+    text-decoration: none;
+}
+
+main aside ul h2
+{
+    margin: 0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+main article
+{
+    padding: 2em;
+    max-width: 40em;
+    margin-bottom: 4em;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 3.5em;
+    border-top-right-radius: 3.5em;
+    box-shadow: 10px 10px 10px #f5ffc7;
+    font-family: sans-serif;
+}
+
+main div article
+{
+    padding: 2em;
+    max-width: 40em;
+    margin-bottom: 4em;
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 3.5em;
+    border-top-right-radius: 3.5em;
+    box-shadow: 10px 10px 10px #f5ffc7;
+    font-family: sans-serif;
+}
+
+main article h2
+{
+    font-family: "Lobster Two";
+}
+
+main article:last-child
+{
+    margin-bottom: 0em;
+}
+
+main article h2
+{
+    text-align: center;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+/* News Feed */
+main div.feed article img:first-child
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 3.5em;
+    border-top-right-radius: 3.5em;
+}
+
+/* Artikel */
+
+main article img
+{
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-left-radius: 3em;
+    border-top-right-radius: 3em;
+}
+
+
+/* Animation */
+
+header div.flauschi {
+    display: block;
+    background-image: url("images/flauschi_normal-normalsize.png");
+    width: 350px;
+    height: 315px;
+
+}
+header div.flauschi:hover
+{
+    background-image: url("images/flauschi_surprised-normalsize.png");
+}
+
+/* Footer */
+footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer a
+{
+    margin: 3rem;
+}
